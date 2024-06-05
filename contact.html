@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>All Products - FoodStore | OnlineFood Website Design </title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.2/css/fontawesome.min.css" integrity="sha384-X8QTME3FCg1DLb58++lPvsjbQoCT9bp3MsUU3grbIny/3ZwUJkRNO8NPW6zqzuW9" crossorigin="anonymous">
+    <link href="http://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap"rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.2/css/fontawesome.min.css">
+          </head>
+    <body>
+        <div class="container">
+            <div class="navbar">
+        <div class="logo">
+        <img src="images/Food-Store-Logo-Template.webp" width="125px">
+        </div>
+        <nav>
+        <ul  id="MenuItems">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="product.html">Dishes</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="account.html">Account</a></li>
+            </ul>
+        </nav>
+              <a href="cart.html"><img src="images/icon.png" width="30px" height="30px"></a>
+                <img src="images/menu.png" class="menu-icon" onclick="menutoggle()">
+        </div>
+
+        </div>    
+  <section class="contact">
+        <div class="content">
+      <h2>Contact Us</h2>
+            <p>We are providing the best food to you , If you have any query feel free to contact with us and provide us the feedback so that we can improve ourself ... Thanking You ! </p>
+      </div>
+      <div class="container-contact">
+      <div class="contactInfo">
+          <div class="box">
+          <div class="icon"><span>&#64;</span></div>
+              <div class="text">
+              <h3>Address</h3>
+              <p>A-758 Manglam Grand City Ajmer Road, <br> Mahapura Jaipur ,Rajasthan , <br>302026</p>
+              </div>
+          </div>
+           <div class="box">
+          <div class="icon"><span>&#9990;</span></div>
+              <div class="text">
+              <h3>Phone</h3>
+              <p>+91-7357896977</p>
+              </div>
+          </div>
+           <div class="box">
+          <div class="icon"><span>&#109;</span></div>
+              <div class="text">
+              <h3>Email</h3>
+              <p>bhavyc66@gmail.com</p>
+              </div>
+          </div>
+          </div>
+          <div class="contactForm">
+          <form>
+              <h2>Send Message</h2>
+              <div class="inputBox">
+              <input type="text" name="" required="required">
+                  <span>Full Name</span>
+              </div>
+              <div class="inputBox">
+              <input type="text" name="" required="required">
+                  <span>Email</span>
+              </div>
+              <div class="inputBox">
+              <textarea required="required"></textarea>
+                  <span>Type your Message...</span>
+              </div>
+              <div class="inputBox">
+              <input type="submit"name="" value="Send">
+              </div>
+              </form>
+          </div>
+      </div>
+      
+        </section>
+
+        <!--------footer------->
+        <div class="footer">
+        <div class="row">
+            <div class="footer-col-1">
+            <h3>Download Our App</h3>
+                <p>Download App For Android and ios Mobile</p>
+                <div class="app-logo">
+                <img src="images/playstorre.png">
+                    <img src="images/apaa.jpeg">
+                </div>
+            </div>
+            <div class="footer-col-2">
+            <img src="images/Food-Store-Logo-Template.webp">
+                <p>Our Purpose Is To Provide The Best Quality Food </p>
+            </div>
+            <div class="footer-col-3">
+            <h3>Useful Links</h3>
+                <ul>
+                <li>Coupons</li>
+                    <li>Coupons</li>
+                    <li>Blog Post</li>
+                    <li>Return Policy</li>
+                    <li>Join Affiliate</li>
+                </ul>
+            </div>
+            <div class="footer-col-4">
+            <h3>Follow Us</h3>
+                <ul>
+                <li>Facebook</li>
+                    <li>Instagram</li>
+                    <li>Twitter</li>
+                    <li>Youtube</li>
+                </ul>
+            </div>
+        </div>
+            <hr>
+            <p class="copyright"> Copyright 2022 - Easy Tutorials</p>
+        </div>
+        <!---------js for toggle menu---------->
+        <script>
+        var MenuItems=document.getElementById("MenuItems");
+            MenuItems.style.maxHeight="0px";
+            function menutoggle(){
+                if(MenuItems.style.maxHeight=="0px"){
+                    MenuItems.style.maxHeight="200px";
+                }
+                else{
+                    MenuItems.style.maxHeight="0px";
+                }
+            }
+        </script>
+            
+           
+        
+    </body>
+</html>
